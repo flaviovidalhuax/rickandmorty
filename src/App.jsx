@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
+
 import './App.css'
 import getRandomNumber from './utils/getRandomNumber'
 import axios from 'axios'
