@@ -4,10 +4,10 @@ import './App.css'
 import getRandomNumber from './utils/getRandomNumber'
 import axios from 'axios'
 import LocatioinInfo from './components/LocatioinInfo'
-import CardResident from './components/CardResident'
+import CardResident from './components/cardResident'
 import ErrorScreen from './components/ErrorScreen'
 import FilterList from './components/FilterList'
-import CardResident from './components/styles/CardResident'
+
 
 function App() {
   // guardar location
