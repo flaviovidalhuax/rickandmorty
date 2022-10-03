@@ -7,6 +7,7 @@ import LocatioinInfo from './components/LocatioinInfo'
 import CardResident from './components/CardResident'
 import ErrorScreen from './components/ErrorScreen'
 import FilterList from './components/FilterList'
+import CardResident from './components/styles/CardResident'
 
 function App() {
   // guardar location
