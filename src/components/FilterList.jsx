@@ -9,7 +9,7 @@ const FilterList = ({suggestList,setSearchInput}) => {
     <ul className='filter_list'>
         {
             suggestList?.map(location =>(
-                <li onClick={ () => handleClick(location.id)} key={location.id} >{location.name}</li>
+                <li className='filter_list--li' onClick={ () => handleClick(location.id)} key={location.id} >{location.name}</li>
             ))
         }
     </ul>
